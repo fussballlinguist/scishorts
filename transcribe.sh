@@ -3,8 +3,8 @@
 #    chmod +x transcribe.sh
 #    ./transcribe.sh
 
-INPUT_DIR="mutzurwahrheit90"
-OUTPUT_DIR="mutzurwahrheit90_transkripte"
+INPUT_DIR=""
+OUTPUT_DIR=""
 
 for f in "$INPUT_DIR"/*.mp4; do
   base=$(basename "$f" .mp4)
